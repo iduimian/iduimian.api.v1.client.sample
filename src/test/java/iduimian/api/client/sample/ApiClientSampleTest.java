@@ -30,7 +30,7 @@ public class ApiClientSampleTest {
     private ApiClientSample client;
     // 人员信息和样张id，此处简单使用map来保存.
     // 实际可以持久化到数据库或文件内
-    private final Map<String, String> userInfo = new HashMap<String, String>();
+    private final static Map<String, String> userInfo = new HashMap<String, String>();
 
     @Before
     public void setup() {
